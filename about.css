@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text&family=Indie+Flower&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text&family=Indie+Flower&family=Mulish&family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Bellota Text', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+::placeholder{
+    color: black;
+}
+.bg-vedio video{
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    /* width: 1263; */
+    /* height: 400px;  */
+    /* max-height: 400px; */
+    z-index: -1;
+    filter: brightness(50%);
+    
+}
+.header{
+    /* background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(img/bg_1.jpg);
+    background-size: cover; */
+    /* position: absolute; */
+    width: 100%;
+    height: 700px;
+    opacity: .85;
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+.navbar{
+    /* border: 2px solid greenyellow; */
+    padding: 30px 60px;
+    /* position: sticky;
+    top: 0;
+    z-index: 1; */
+}
+.navbar nav{
+    display: flex;
+    justify-content: space-between;
+}
+.comp-name{
+    display: flex;
+    align-items: center;
+    animation-name: logo;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0.42, 0, 0.67, 1.66);
+    animation-iteration-count: 1;
+    position: relative;
+}
+.logo{
+    /* border: 2px solid white; */
+    font-size: 20px;
+    background-image: url(img/logo.png);
+    background-size: 100%;
+    width: 80px;
+    height: 70px;
+
+    
+}
+@keyframes logo {
+    0%{
+        top: -70px;
+    }
+    100%{
+        top: 0px;
+    }
+    
+}
+.logo-name{
+    width: 150px;
+    height: 50px;
+    margin-top:20px;
+    margin-left: 5px;
+    /* border: 2px solid red; */
+    background-image: url(img/logo\ name.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+.navigation{
+    /* border: 2px solid yellow; */
+    /* height: 30px; */
+    animation-name: nav;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0.42, 0, 0.67, 1.66);
+    animation-iteration-count: 1;
+    position: relative;
+    /* margin-top: 5px; */
+   
+    
+}
+@keyframes nav {
+    from{
+        right: -760px;
+    }
+    to{
+        right: 0px;
+    }
+
+    
+}
+.navigation ul{
+    list-style: none;
+    display: flex;    
+}
+.navigation li a{
+    text-decoration: none;
+    color: rgb(176, 176, 176);
+    margin: 0px 20px;
+    transition: all .5s linear;
+}
+
+.navigation li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.active{
+    color: white;
+    text-decoration: underline;
+}
+
+
+/* hero-section */
+
+.hero-sec{
+    /* border: 2px solid red; */
+    height: 570px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text h1{
+    font-size: 62px;
+    /* font-family: 'Indie Flower', cursive; */
+    line-height: 1.2;
+    margin: auto;
+    /* width: 74%; */
+    /* border: 2px solid yellow; */
+    text-align: center;
+    display: block;
+    font-weight: 100;
+    font-family: 'Mulish', sans-serif;
+
+
+}
+.our-chef{
+    /* border: 2px solid red; */
+    margin: 0px 60px;
+    height: 600px;
+    display: flex;
+    
+}
+.chef{
+    /* border: 2px solid black; */
+    width: 50%;
+}
+.chef-img{
+    background-image: url(img/about-2.jpg.webp);
+    background-size: cover;
+}
+.about-chef{
+    padding: 6% 5%;
+    padding-right: 11%;
+    font-size: 16px;
+    color: rgb(220, 220, 220);
+    line-height: 1.6;
+}
+.about-chef h4{
+    font-size: 30px;
+    font-weight: 100;
+    color: black;
+    margin-top: 0%;
+}
+.about-chef p{
+    color: rgb(172, 172, 172);
+}
+.about-chef h5{
+    margin-bottom: 0%;
+}
+.master{
+    /* border: 2px solid black; */
+    margin: 100px 60px;
+    font-size: 20px;
+    
+}
+.master h1{
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 70px;
+}
+.masters{
+    display: flex;
+    justify-content: space-between;
+}
+.master-chef{
+    width: 23%;
+    /* height: 500px; */
+    /* border: 2px solid green; */
+}
+.master-img{
+    width: 100%;
+    height: 290px;
+    background-size: 263px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    
+    /* border: 1px solid black; */
+}
+.master-text{
+    letter-spacing: 1px;
+    padding: 0px 2px;
+}
+.master-text h2{
+    font-size: 18px;
+    
+    margin-bottom: 0%;
+}
+.master-text p{
+    font-size: 12px;
+    color: #8b8b92;
+    
+}
+.master-text i{
+    font-size: 16px;
+    color: #ffb400;
+    margin: 0px 2px;
+}
+.foot-panel{
+    background: #27272b;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 70px 0px;
+
+}
+.foot-panel ul{
+    width: 30%;
+    padding: 0px 30px;
+    /* border: 2px solid yellow; */
+}
+.foot-panel h1{
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+.foot-panel p{
+    line-height: 1.8;
+    color: #8b8b92;
+}
+.foot-panel i{
+    font-size: 25px;
+    margin: 10px 5px;
+    color: #8b8b92;
+    transition: all linear .2s;
+}
+.foot-panel i:hover{
+    color: white;
+}
+.foot-panel li{
+    list-style: none;
+    margin: 20px 0px;
+}
+.foot-panel a{
+    text-decoration: none;
+    color: #8b8b92;
+    transition: all linear .2s;
+}
+.foot-panel a:hover{
+    color: white;
+} 
