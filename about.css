@@ -13,21 +13,9 @@ body{
 ::placeholder{
     color: black;
 }
-.bg-vedio video{
-    position: absolute;
-    object-fit: cover;
-    top: 0;
-    left: 0;
-    /* width: 1263; */
-    /* height: 400px;  */
-    /* max-height: 400px; */
-    z-index: -1;
-    filter: brightness(50%);
-    
-}
 .header{
-    /* background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(img/bg_1.jpg);
-    background-size: cover; */
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(https://preview.colorlib.com/theme/tasty/images/bg_1.jpg.webp);
+    background-size: cover;
     /* position: absolute; */
     width: 100%;
     height: 700px;
@@ -139,18 +127,70 @@ body{
     align-items: center;
 }
 .hero-text h1{
-    font-size: 62px;
+    font-size: 72px;
     /* font-family: 'Indie Flower', cursive; */
     line-height: 1.2;
     margin: auto;
-    /* width: 74%; */
+    width: 74%;
     /* border: 2px solid yellow; */
     text-align: center;
     display: block;
     font-weight: 100;
     font-family: 'Mulish', sans-serif;
+}
+.btn{
+    display: block;
+    margin: 0px auto;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 20px 40px;
+    margin-top: 30px;
+    font-size: 16px;
+    transition: all .3s linear;
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+}
+#Person{
+    /* width: 150px; */
+}
+#submit{
+    background-color: white;
+    border: none;
+}
+.book{
+    /* border: 2px solid yellow; */
+    margin: 0px 60px;
+    position: relative;
+    top: 124px;
+    height: 150px;
+    background-color: #ffb400;
+    /* padding: 0px 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-
+}
+.book h1{
+    display: none;
+}
+input, select{
+    margin: 0px 10px;
+    padding: 20px 15px;
+    background: transparent;
+    border: 1px solid black;
+    font-size: 15px;
+    color: black;
+    width: 150px;
+}
+#Person{
+    /* width: 150px; */
+}
+#submit{
+    background-color: white;
+    border: none;
 }
 .our-chef{
     /* border: 2px solid red; */
@@ -164,7 +204,7 @@ body{
     width: 50%;
 }
 .chef-img{
-    background-image: url(img/about-2.jpg.webp);
+    background-image: url(https://preview.colorlib.com/theme/tasty/images/about-2.jpg.webp);
     background-size: cover;
 }
 .about-chef{
@@ -185,7 +225,8 @@ body{
 }
 .about-chef h5{
     margin-bottom: 0%;
-}
+} 
+
 .master{
     /* border: 2px solid black; */
     margin: 100px 60px;

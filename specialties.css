@@ -14,7 +14,7 @@ body{
     color: black;
 }
 .header{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(img/bg_1.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(https://preview.colorlib.com/theme/tasty/images/bg_1.jpg.webp);
     background-size: cover;
     /* position: absolute; */
     width: 100%;
